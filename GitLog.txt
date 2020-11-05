@@ -1,1 +1,22 @@
+Kennie@LAPTOP-SK2B66V9 MINGW64 ~/Documents/Skola/Git/GIT-Laboration1 (main)
+$ git merge NyBranch
+Updating b5c8a39..32655a9
+Fast-forward
+ GitLog.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 GitLog.txt
+
+Kennie@LAPTOP-SK2B66V9 MINGW64 ~/Documents/Skola/Git/GIT-Laboration1 (main)
+$ git log
+commit 32655a9aad62d4eea0cbdf44033d772842feb75e (HEAD -> main, NyBranch)
+Author: CooBoo84 <kennie_svensson@hotmail.com>
+Date:   Thu Nov 5 15:15:18 2020 +0100
+
+    Lagt till Log-fil
+
+commit b5c8a39b54a5b4074806433ff3229b217f2cd43c (origin/main)
+Author: CooBoo84 <kennie_svensson@hotmail.com>
+Date:   Thu Nov 5 15:03:28 2020 +0100
+
+    Lagt till .gitignore och README
 
